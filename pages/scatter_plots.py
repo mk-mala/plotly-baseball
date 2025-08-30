@@ -1,4 +1,3 @@
-# %%
 import streamlit as st
 import plotly.express as px
 import pybaseball as pyb
@@ -13,7 +12,7 @@ df_team_batting = pyb.team_batting(1994, 2024)
 df_dodgers = df_team_batting[df_team_batting['Team'] == 'LAD']
 
 ###############################################################################
-# Bar Chart
+# Standard Scatter Plot
 
 with st.container(border=True):
 

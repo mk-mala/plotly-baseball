@@ -1,4 +1,3 @@
-# %%
 import streamlit as st
 import plotly.express as px
 import pybaseball as pyb
@@ -13,7 +12,7 @@ df_team_batting = pyb.team_batting(2000, 2024)
 df_angels = df_team_batting[df_team_batting['Team'] == 'LAA']
 
 ###############################################################################
-# Bar Chart
+# Standard Bar Chart
 
 with st.container(border=True):
 
