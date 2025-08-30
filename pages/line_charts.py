@@ -1,8 +1,6 @@
-# %%
 import streamlit as st
 import plotly.express as px
 import pybaseball as pyb
-import pandas as pd
 import numpy as np
 
 st.title("Line Charts")
