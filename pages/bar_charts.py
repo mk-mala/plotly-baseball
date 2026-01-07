@@ -6,8 +6,8 @@ st.title("Bar Charts")
 
 plotly_config = {'displayModeBar': False}
 
-# Team Batting Data from 2000-2004
-df_team_batting = pyb.team_batting(2000, 2024)
+# Team Batting Data from 2014-2024
+df_team_batting = pyb.team_batting(2014, 2024)
 
 df_angels = df_team_batting[df_team_batting['Team'] == 'LAA']
 
@@ -23,7 +23,7 @@ with st.container(border=True):
         x='Season',
         y='HR',
         title='Los Angeles Angels',
-        subtitle='2000-2024 Team Home Runs',
+        subtitle='2014-2024 Team Home Runs',
     )
 
     st.plotly_chart(fig_bar, config=plotly_config)
@@ -36,7 +36,7 @@ with st.container(border=True):
             x='Season',
             y='HR',
             title='Los Angeles Angels',
-            subtitle='2000-2024 Team Home Runs',
+            subtitle='2014-2024 Team Home Runs',
         )
         '''
         
