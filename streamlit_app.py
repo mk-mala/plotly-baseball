@@ -16,6 +16,7 @@ scatter_plots = st.Page("pages/scatter_plots.py", title="Scatter Plots")
 pie_charts = st.Page("pages/pie_charts.py", title="Pie Charts")
 bubble_charts = st.Page("pages/bubble_charts.py", title="Bubble Charts")
 dot_plots = st.Page("pages/dot_plots.py", title="Dot Plots")
+box_plots = st.Page("pages/box_plots.py", title="Box Plots")
 
 pg = st.navigation([
     home_page,
@@ -24,7 +25,8 @@ pg = st.navigation([
     scatter_plots,
     pie_charts,
     bubble_charts,
-    dot_plots
+    dot_plots,
+    box_plots
 ])
 
 pg.run()
