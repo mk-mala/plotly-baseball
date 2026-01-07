@@ -6,8 +6,8 @@ st.title("Scatter Plots")
 
 plotly_config = {'displayModeBar': False}
 
-# Team Batting Data from 2000-2004
-df_team_batting = pyb.team_batting(1994, 2024)
+# Team Batting Data from 2014-2024
+df_team_batting = pyb.team_batting(2014, 2024)
 
 df_dodgers = df_team_batting[df_team_batting['Team'] == 'LAD']
 
